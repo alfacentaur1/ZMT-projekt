@@ -170,3 +170,18 @@ h1 {
         border-right: none;
     }
 }
+
+.gimp-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.gimp-container img {
+    padding:10px;
+    height:30%;
+    width: 30%;
+}
