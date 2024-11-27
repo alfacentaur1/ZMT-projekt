@@ -19,6 +19,7 @@ body {
     background: linear-gradient(135deg, #ff5fc2 0%, #feb47b 100%);
     overflow-x: hidden;
     height: 100vh;
+    max-width: 100%;
 }
 
 .food-vlog {
@@ -118,12 +119,11 @@ table img, table video, table audio {
 .main {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .autori {
-    margin: auto;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
