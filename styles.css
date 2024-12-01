@@ -171,7 +171,7 @@ h1 {
     }
 }
 
-.gimp-container {
+.media-container {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +180,7 @@ h1 {
 
 }
 
-.gimp-container img {
+.media-container img {
     padding:10px;
     height:30%;
     width: 30%;
@@ -189,6 +189,11 @@ h1 {
 .uvodni-container {
     margin-top:22px;
     display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
+}
+
+.uvodni-container h2 {
+    margin-bottom: 15px;
 }
